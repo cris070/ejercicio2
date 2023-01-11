@@ -1,0 +1,51 @@
+
+
+        // IF
+        int numeroIf = -4;
+        if(numeroIf > 0) {
+            System.out.println("IF | El número es positivo");
+        } else if (numeroIf < 0) {
+            System.out.println("IF | El número es negativo");
+        } else {
+            System.out.println("IF | El número es 0");
+        }
+
+        // WHILE
+        int numeroWhile = 0;
+        while(numeroWhile < 3) {
+            System.out.println("WHILE | El número es: "+numeroWhile);
+            numeroWhile++;
+        }
+
+        // DO WHILE
+        do {
+            System.out.println("DO WHILE | El número es: "+numeroWhile);
+        } while(numeroWhile >= 10);
+
+
+        // FOR
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println("FOR | El número es: "+numeroFor);
+        }
+
+        // SWITCH
+        String estacion = "PRIMAVERA";
+        switch(estacion) {
+            case "VERANO":
+                System.out.println("SWITCH | Es verano");
+                break;
+            case "PRIMAVERA":
+                System.out.println("SWITCH | Es primavera");
+                break;
+            case "INVIERNO":
+                System.out.println("SWITCH | Es invierno");
+                break;
+            case "OTOÑO":
+                System.out.println("SWITCH | Es otoño");
+                break;
+            default:
+                System.out.println("SWITCH | Estación no disponible");
+                break;
+        }
+    }
+}
